@@ -1,0 +1,60 @@
+# Build artifacts
+.next/
+.turbo/
+_next/
+__tmp__/
+dist/
+target/
+compiled/
+
+# Ignore Node modules
+node_modules
+
+# Ignore environment variable files
+*.env.*
+
+
+# Ignore lock files
+package-lock.json
+
+.eslintrc.json
+.gitignore
+next-env.d.ts
+README.md
+tsconfig.json
+.husky
+
+# Ignore all HTML files:
+**/*.html
+
+scripts
+**/*.css
+**/*.scss
+
+# Ignore Prettier config file itself
+.prettierrc
+.prettierrc.json
+.prettierrc.js
+.prettierrc.yaml
+.prettierrc.yml
+.prettierignore
+
+# Ignore generated files
+*.generated.*
+
+# Ignore temporary files
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+
+# Ignore public files
+public
+
+# Ignore TypeScript build artifacts
+*.tsbuildinfo
+
+# Ignore test coverage
+coverage
+
+*.ico
